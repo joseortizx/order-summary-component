@@ -86,6 +86,7 @@ h6 {
 }
 .card__paragraph {
   font-weight: 500;
+  width: 85%;
   color: var(--desaturated-blue);
 }
 .card__plan {
@@ -101,7 +102,7 @@ h6 {
   justify-content: space-between;
   align-items: center;
   background-color: var(--very-pale-blue);
-  width: 90%;
+  width: 85%;
   height: 20%;
   border-radius: 11px;
   margin-top: 1rem;
@@ -138,3 +139,4 @@ h6 {
   background-color: rgba(255, 255, 255, 0);
   font-weight: 700;
 }
+/* hover effects */
