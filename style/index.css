@@ -11,6 +11,7 @@
 html,
 body {
   height: 100%;
+  background-color: var(--pale-blue);
 }
 body {
   line-height: 1.5;
@@ -52,4 +53,88 @@ h6 {
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+}
+/* visual style */
+.visual {
+  background-color: rgb(137, 93, 179);
+  border: 2px solid black;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 21rem;
+  height: 35rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  font-family: "Red Hat Display";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__item {
+  padding: 0.6rem;
+}
+/* card items */
+.card__title {
+  font-weight: 900;
+  margin-top: 1rem;
+  color: var(--dark-blue);
+}
+.card__paragraph {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+.card__plan {
+  font-weight: 900;
+}
+.card__plan--price {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+/* containers */
+.containerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  width: 90%;
+  height: 20%;
+  border-radius: 11px;
+  margin-top: 1rem;
+}
+.containerFlex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+/* buttons */
+.card__btn--change {
+  border: 0 solid white;
+  background-color: var(--very-pale-blue);
+  color: var(--bright-blue);
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.card__btn--proceed {
+  margin: 1rem;
+  width: 90%;
+  height: 3rem;
+  background-color: var(--bright-blue);
+  color: white;
+  font-weight: 700;
+  border-radius: 11px;
+  border: 0;
+  box-shadow: 0 20px 50px hsla(245, 75%, 52%, 0.297);
+}
+.card__btn--cancel {
+  margin: 0.9rem;
+  color: var(--desaturated-blue);
+  border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: 700;
 }

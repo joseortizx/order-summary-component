@@ -34,21 +34,23 @@
               alt="ilustracion"
             />
           </picture>
-          <h2 class="card__title">Order Summary</h2>
-          <p class="card__paragraph">
+          <h2 class="card__title card__item">Order Summary</h2>
+          <p class="card__paragraph card__item">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
-          <div class="containerFlex">
+          <div class="containerFlex card__item">
             <picture><img src="/icon-music.svg" alt="icono musica" /></picture>
             <div class="containerFlex2">
-              <p>Annual Plan</p>
-              <p>$59.99/year</p>
+              <p class="card__plan">Annual Plan</p>
+              <p class="card__plan--price">$59.99/year</p>
             </div>
             <button class="card__btn--change">Change</button>
           </div>
-          <button class="card__btn--proceed">Proceed to Payment</button>
-          <button class="card__btn--cancel">Cancel Order</button>
+          <div class="containerFlex3 card__item">
+            <button class="card__btn--proceed">Proceed to Payment</button>
+            <button class="card__btn--cancel">Cancel Order</button>
+          </div>
         </article>
       </section>
     </main>
